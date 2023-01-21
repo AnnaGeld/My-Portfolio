@@ -11,3 +11,6 @@ window.addEventListener("scroll",function(){
     header.classList.toggle("sticky", window.scrollY > 0)
 })
 
+const video = document.getElementById('home-logo');
+video.play();
+

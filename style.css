@@ -220,13 +220,15 @@ HOME SECTION
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;
+     padding: 10px 0px;
+    margin: 0 auto;
     gap: 1rem;
  }
  .home-btn {
     padding: 15px 25px;
     border-radius: 10px;
     border: none;
+    margin: 0 5px;
 
  }
 .home-btn a {
@@ -391,6 +393,8 @@ HOME SECTION
  .skills-container ul li {
     text-align: center;
     list-style: none;
+    margin: 0 4px;
+   
     
  }
  .skills-icons{
@@ -431,6 +435,9 @@ HOME SECTION
     .skills-container {
         margin: auto 0;
         height: 25vh;
+    }
+    .skills-container ul li {
+      margin: 0 auto;
     }
  }
 
@@ -527,13 +534,14 @@ border-bottom: 1px solid #E9A621;
  .project-buttons {
 display: flex;
 gap: 5px;
+
 justify-content: center;
 align-items: flex-start;
       padding: 20px 0px;
-    margin: 0 auto;
-   
+    margin:0 auto; 
  }
  .project-buttons a {
+   margin: 0 4px;
     display: inline-block;
     text-align: center;
     border-radius: 10px;
@@ -575,6 +583,10 @@ background-color: #ffb217;
         display: flex;
         gap: 1rem;
     }
+    .project-buttons a {
+      margin: 0 0;
+    }
+   
  }
 
  /* CONTACT SECTION */
